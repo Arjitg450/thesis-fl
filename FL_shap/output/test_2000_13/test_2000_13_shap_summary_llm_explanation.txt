@@ -1,0 +1,15 @@
+1. Prediction Assessment:
+   The prediction correctly identifies the attack type as a PFCP-based attack, specifically pfcp_session_establishment.
+
+2. Key Contributing Factors:
+   - **fe_dst2src_syn_rate**: Importance 0.993224
+   - **fe_dst2src_fin_rate**: Importance 0.991567
+   - **dst2src_stddev_ps**: Importance 0.941591
+
+3. Technical Interpretation:
+   The observed feature behavior reflects a malicious PFCP attack in the following ways:
+   - **fe_dst2src_syn_rate** and **fe_dst2src_fin_rate** indicate an unusually high frequency of SYN (synchronization) and FIN (finish) packets from the destination to the source, which is indicative of aggressive signaling initiation and termination. This behavior suggests that the SMF is attempting to establish or terminate sessions in a manner inconsistent with normal traffic patterns.
+   - **dst2src_stddev_ps** shows significant instability in UPF responses, indicating that the session establishment requests are being handled in an erratic fashion, which is not typical of benign PFCP operations. This variability can be a sign of malicious activity aimed at disrupting or manipulating network sessions.
+
+4. Confidence Analysis:
+   The 99.8% confidence level indicates a very high degree of certainty that the observed traffic represents a malicious PFCP-based attack. Given the critical context where any PFCP traffic is considered an attack, this high confidence aligns with the model's ability to accurately detect and classify such behavior as harmful. This level of confidence suggests that the contributing features are strong indicators of malicious activity within the 5G core network environment.

@@ -1,0 +1,16 @@
+### Prediction Assessment:
+The prediction correctly identifies the attack type as a bruteForce attack, which falls under the non-PFCP category.
+
+### Key Contributing Factors:
+1. **fe_src2dst_min_over_mean_ps (importance 0.989276)**: This feature indicates significant irregularity in packet sizes from source to destination.
+2. **dst2src_stddev_ps (importance 0.989275)**: The standard deviation of packet sizes from the destination back to the source is high, suggesting variability and potential manipulation.
+3. **fe_dst2src_syn_rate (importance 0.989213)**: A high rate of SYN packets from destination to source indicates aggressive connection initiation attempts, typical in bruteForce attacks.
+4. **fe_dst2src_fin_rate (importance 0.989056)**: An elevated FIN packet rate suggests rapid termination of connections, often seen in bruteForce scenarios where attackers attempt multiple connections and quickly terminate them.
+
+### Technical Interpretation:
+The observed feature behavior reflects a bruteForce attack by demonstrating irregularities in traffic patterns that are characteristic of automated or malicious activity. The high variability in packet sizes (indicated by `fe_src2dst_min_over_mean_ps` and `dst2src_stddev_ps`) suggests the presence of malformed packets, which is common in attacks designed to overwhelm systems with non-standard traffic.
+
+The elevated SYN rates (`fe_dst2src_syn_rate`) indicate that the attacker is attempting to establish numerous connections rapidly. This behavior is typical in bruteForce attacks where the goal is to exhaust system resources by initiating a large number of connection attempts. The high FIN packet rate (`fe_dst2src_fin_rate`) further supports this interpretation, as it shows rapid termination of these connections, which can be used to overwhelm the target's ability to manage and respond to legitimate traffic.
+
+### Confidence Analysis:
+The 98.9% confidence level indicates a very strong belief in the prediction that the attack is indeed a bruteForce attack. However, it should not be interpreted as absolute certainty. There remains a small possibility (1.1%) of misclassification or other factors influencing the model's decision. In practical terms, this high confidence suggests that the observed traffic patterns strongly align with known characteristics of bruteForce attacks, but continuous monitoring and validation are still recommended to ensure accurate detection and response.

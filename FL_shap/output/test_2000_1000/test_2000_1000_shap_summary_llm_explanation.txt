@@ -1,0 +1,21 @@
+### Prediction Assessment:
+The prediction correctly identifies the attack type as `pfcp_session_establishment`, which matches the true class.
+
+### Key Contributing Factors:
+1. **fe_src2dst_min_over_mean_ps**: This feature indicates a significant discrepancy between the minimum and mean packet sizes from source to destination, suggesting irregular traffic patterns.
+2. **fe_dst2src_syn_rate**: Although this is a TCP-related feature, its high importance might indicate an attempt to mask PFCP activity with normal-looking TCP behavior.
+3. **dst2src_stddev_ps**: High standard deviation in packet sizes from destination to source suggests variability and potential manipulation of traffic characteristics.
+
+### Technical Interpretation:
+Given that the predicted attack type is `pfcp_session_establishment`, we focus on PFCP semantics for interpretation:
+
+- The feature `fe_src2dst_min_over_mean_ps` indicates a significant irregularity in packet size consistency from source to destination. In the context of PFCP, this could suggest an attempt to establish sessions with malformed or unusually sized packets, which is indicative of control-plane abuse.
+  
+- While `fe_dst2src_syn_rate` and other TCP-related features are not directly relevant for interpreting a PFCP attack, their presence might indicate that attackers are attempting to blend in by generating normal-looking TCP traffic. However, the primary focus remains on PFCP behavior.
+
+- The high standard deviation in packet sizes (`dst2src_stddev_ps`) suggests variability and potential manipulation of traffic characteristics, which is consistent with an attempt to establish sessions in a manner that deviates from typical patterns.
+
+### Confidence Analysis:
+The 41.4% confidence level indicates moderate certainty but should be interpreted cautiously. This relatively low confidence suggests that while the model has correctly identified the attack type as `pfcp_session_establishment`, there is still room for uncertainty and potential false positives. Further analysis, possibly involving additional data or more sophisticated feature extraction techniques, may be necessary to increase confidence in future predictions.
+
+This interpretation adheres strictly to PFCP semantics without mixing with TCP semantics, ensuring protocol-awareness and attack-specific detail suitable for academic or security review.

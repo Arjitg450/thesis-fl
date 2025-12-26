@@ -1,0 +1,13 @@
+1. Prediction Assessment:
+   The prediction is correct, as the predicted class (ddos_tcp_ddos) matches the true class.
+
+2. Key Contributing Factors:
+   - fe_src2dst_min_over_mean_ps: This feature indicates a high variability in packet sizes from source to destination, which is characteristic of DDoS attacks where attackers often use varying packet sizes.
+   - dst2src_stddev_ps: The standard deviation in the size of packets sent back from the destination to the source also shows significant variation, suggesting irregular traffic patterns typical of DDoS attacks.
+   - bidirectional_stddev_ps: High variability in packet sizes across both directions (source to destination and vice versa) further supports the presence of a DDoS attack.
+   
+3. Technical Interpretation:
+   The prediction is correct because the behavior described by these features aligns with known characteristics of TCP-based DDoS attacks. In such attacks, attackers often send packets of varying sizes to overwhelm the target system or network resources. This variability in packet size and timing can be detected through the analysis of standard deviations and minimum-to-mean ratios across bidirectional traffic flows.
+
+4. Confidence Analysis:
+   The 90.1% confidence score indicates a high level of certainty that the observed traffic pattern is indeed a DDoS attack. This strong confidence stems from the clear alignment between the SHAP feature attributions and the expected behavior of TCP-based DDoS attacks, as evidenced by significant deviations in packet size consistency and timing across bidirectional flows.
