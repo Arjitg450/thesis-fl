@@ -1,0 +1,52 @@
+{
+  "round": 3,
+  "num_clients": 3,
+  "num_details_received": 0,
+  "status_by_client": [
+    {
+      "cid": "40e8fe55b7da47e9baead8f392af33b1",
+      "has_details_json": false,
+      "diag_is_final": 0.0,
+      "diag_details_len": null,
+      "metric_keys": [
+        "accuracy",
+        "diag_is_final",
+        "macro_f1",
+        "macro_precision",
+        "macro_recall",
+        "n_classes_test",
+        "n_test"
+      ]
+    },
+    {
+      "cid": "f397c7bf3d694257b4a6ff6eb59c9701",
+      "has_details_json": false,
+      "diag_is_final": 0.0,
+      "diag_details_len": null,
+      "metric_keys": [
+        "accuracy",
+        "diag_is_final",
+        "macro_f1",
+        "macro_precision",
+        "macro_recall",
+        "n_classes_test",
+        "n_test"
+      ]
+    },
+    {
+      "cid": "665309b8a295418db92470814c1789f5",
+      "has_details_json": false,
+      "diag_is_final": 0.0,
+      "diag_details_len": null,
+      "metric_keys": [
+        "accuracy",
+        "diag_is_final",
+        "macro_f1",
+        "macro_precision",
+        "macro_recall",
+        "n_classes_test",
+        "n_test"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+class,support,precision,recall,f1
+benign,12636,0.4347100239529651,0.9479265590376702,0.5960686737994526
+bruteForce,6156,0.0,0.0,0.0
+ddos_tcp_ddos,9007,0.0,0.0,0.0
+pfcp_session_deletion,6118,0.39132110374595347,0.8298463550179798,0.5318457992876597
+pfcp_session_establishment,1518,0.0,0.0,0.0
+pfcp_session_modification,5556,0.0,0.0,0.0

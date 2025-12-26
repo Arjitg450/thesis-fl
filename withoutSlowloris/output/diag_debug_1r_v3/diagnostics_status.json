@@ -1,0 +1,70 @@
+{
+  "round": 1,
+  "num_clients": 3,
+  "num_details_received": 0,
+  "status_by_client": [
+    {
+      "cid": "70c4e8a4374945c1996ad05705ce1aac",
+      "has_details_json": false,
+      "diag_is_final": 0.0,
+      "diag_details_len": null,
+      "cfg_num_keys": 0.0,
+      "cfg_is_final_raw": -1.0,
+      "cfg_server_round_raw": -1.0,
+      "metric_keys": [
+        "accuracy",
+        "cfg_is_final_raw",
+        "cfg_num_keys",
+        "cfg_server_round_raw",
+        "diag_is_final",
+        "macro_f1",
+        "macro_precision",
+        "macro_recall",
+        "n_classes_test",
+        "n_test"
+      ]
+    },
+    {
+      "cid": "f06c41ca135e4325899b6d69ead8cff9",
+      "has_details_json": false,
+      "diag_is_final": 0.0,
+      "diag_details_len": null,
+      "cfg_num_keys": 0.0,
+      "cfg_is_final_raw": -1.0,
+      "cfg_server_round_raw": -1.0,
+      "metric_keys": [
+        "accuracy",
+        "cfg_is_final_raw",
+        "cfg_num_keys",
+        "cfg_server_round_raw",
+        "diag_is_final",
+        "macro_f1",
+        "macro_precision",
+        "macro_recall",
+        "n_classes_test",
+        "n_test"
+      ]
+    },
+    {
+      "cid": "fcc95ec0c870493ea4e0a7d374945a38",
+      "has_details_json": false,
+      "diag_is_final": 0.0,
+      "diag_details_len": null,
+      "cfg_num_keys": 0.0,
+      "cfg_is_final_raw": -1.0,
+      "cfg_server_round_raw": -1.0,
+      "metric_keys": [
+        "accuracy",
+        "cfg_is_final_raw",
+        "cfg_num_keys",
+        "cfg_server_round_raw",
+        "diag_is_final",
+        "macro_f1",
+        "macro_precision",
+        "macro_recall",
+        "n_classes_test",
+        "n_test"
+      ]
+    }
+  ]
+}

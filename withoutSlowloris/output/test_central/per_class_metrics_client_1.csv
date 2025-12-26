@@ -1,0 +1,7 @@
+client,label,precision,recall,f1,support
+client_1,benign,0.5779095421952565,0.9950142450142451,0.73115840893231,4212
+client_1,bruteForce,0.9993373094764745,0.4899285250162443,0.657510355352082,6156
+client_1,ddos_tcp_ddos,0.0,0.0,0.0,0
+client_1,pfcp_session_deletion,0.0,0.0,0.0,0
+client_1,pfcp_session_establishment,0.0,0.0,0.0,0
+client_1,pfcp_session_modification,0.0,0.0,0.0,0

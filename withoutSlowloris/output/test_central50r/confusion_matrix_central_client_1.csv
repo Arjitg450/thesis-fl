@@ -1,0 +1,7 @@
+,benign,bruteForce,ddos_tcp_ddos,pfcp_session_deletion,pfcp_session_establishment,pfcp_session_modification
+benign,329,1,4,0,0,0
+bruteForce,10,322,1,0,0,0
+ddos_tcp_ddos,42,1,290,1,0,0
+pfcp_session_deletion,0,0,0,303,29,1
+pfcp_session_establishment,12,0,0,1,320,0
+pfcp_session_modification,2,0,0,8,68,255

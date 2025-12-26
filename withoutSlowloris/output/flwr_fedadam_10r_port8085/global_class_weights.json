@@ -1,0 +1,18 @@
+{
+  "label_weights": {
+    "benign": 0.5406536878759101,
+    "bruteForce": 1.1098349470400937,
+    "ddos_tcp_ddos": 0.7585215286567628,
+    "pfcp_session_deletion": 1.1165827667364017,
+    "pfcp_session_establishment": 4.50164733790195,
+    "pfcp_session_modification": 1.2296076313894888
+  },
+  "label_counts": {
+    "bruteForce": 30778,
+    "benign": 63180,
+    "ddos_tcp_ddos": 45033,
+    "pfcp_session_deletion": 30592,
+    "pfcp_session_modification": 27780,
+    "pfcp_session_establishment": 7588
+  }
+}

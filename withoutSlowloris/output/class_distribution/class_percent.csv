@@ -1,0 +1,7 @@
+class,count,percent
+benign,63180,30.826880571453664
+bruteForce,30778,15.017248025137716
+ddos_tcp_ddos,45033,21.972569053090737
+pfcp_session_deletion,30592,14.926494625544642
+pfcp_session_establishment,7588,3.7023483661948466
+pfcp_session_modification,27780,13.554459358578391

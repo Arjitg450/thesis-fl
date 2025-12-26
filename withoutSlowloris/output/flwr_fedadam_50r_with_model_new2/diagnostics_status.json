@@ -1,0 +1,23 @@
+{
+  "round": 50,
+  "num_clients": 3,
+  "num_local_details_received": 0,
+  "num_central_details_received": 0,
+  "status_by_client": [
+    {
+      "cid": "56b75b208ccd4e59b1dd5e1b25759bb9",
+      "has_details_json": false,
+      "has_central_details_json": false
+    },
+    {
+      "cid": "46bcdf2e7ea94922b63b2f30f36fd9f5",
+      "has_details_json": false,
+      "has_central_details_json": false
+    },
+    {
+      "cid": "da55af632b554c5abb2f0dc8bfc483ab",
+      "has_details_json": false,
+      "has_central_details_json": false
+    }
+  ]
+}

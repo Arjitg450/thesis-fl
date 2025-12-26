@@ -1,0 +1,7 @@
+class,client_1,client_2,client_3
+benign,21060,21060,21060
+bruteForce,30778,0,0
+ddos_tcp_ddos,0,45033,0
+pfcp_session_deletion,0,15296,15296
+pfcp_session_establishment,0,0,7588
+pfcp_session_modification,0,0,27780

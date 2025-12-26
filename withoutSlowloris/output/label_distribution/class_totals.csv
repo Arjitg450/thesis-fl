@@ -1,0 +1,7 @@
+class,n
+benign,63180
+bruteForce,30778
+ddos_tcp_ddos,45033
+pfcp_session_deletion,30592
+pfcp_session_establishment,7588
+pfcp_session_modification,27780
