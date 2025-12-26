@@ -1,0 +1,7 @@
+class_label,client_csv,index
+benign,withoutSlowloris/preprocessing/datasets/client_1.csv,0
+bruteForce,withoutSlowloris/preprocessing/datasets/client_1.csv,21060
+ddos_tcp_ddos,withoutSlowloris/preprocessing/datasets/client_2.csv,21060
+pfcp_session_deletion,withoutSlowloris/preprocessing/datasets/client_2.csv,66093
+pfcp_session_establishment,withoutSlowloris/preprocessing/datasets/client_3.csv,36356
+pfcp_session_modification,withoutSlowloris/preprocessing/datasets/client_3.csv,43944
