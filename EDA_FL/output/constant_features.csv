@@ -1,0 +1,17 @@
+feature,top_fraction,nunique
+bidirectional_cwr_packets,1.0,1
+bidirectional_ece_packets,1.0,1
+bidirectional_urg_packets,1.0,1
+dst2src_cwr_packets,1.0,1
+dst2src_ece_packets,1.0,1
+dst2src_urg_packets,1.0,1
+src2dst_cwr_packets,1.0,1
+src2dst_ece_packets,1.0,1
+src2dst_urg_packets,1.0,1
+udps.association_setup_request_counter,1.0,1
+udps.association_setup_response_counter,1.0,1
+udps.heartbeat_request_counter,1.0,1
+udps.heartbeat_response_counter,1.0,1
+udps.pfd_management_request_counter,1.0,1
+udps.pfd_management_response_counter,1.0,1
+vlan_id,1.0,1

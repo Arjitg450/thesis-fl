@@ -1,0 +1,12 @@
+feature,top_fraction,nunique
+udps.association_update_request_counter,0.9999943213437972,2
+udps.association_update_response_counter,0.9999943213437972,2
+udps.association_release_request_counter,0.9999943213437972,2
+udps.association_release_response_counter,0.9999943213437972,2
+udps.version_not_supported_response_counter,0.9999943213437972,2
+udps.node_report_request_counter,0.9999943213437972,2
+udps.node_report_response_counter,0.9999943213437972,2
+udps.session_set_deletion_request_counter,0.9999943213437972,2
+udps.session_set_deletion_response_counter,0.9999943213437972,2
+udps.session_establishment_response_counter,0.9999943213437972,2
+ip_version,0.9998921055321469,2

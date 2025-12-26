@@ -1,0 +1,15 @@
+[
+  "fe_ack_rate_bi",
+  "fe_byte_ratio_s2d_over_d2s",
+  "fe_bytes_per_ms_bi",
+  "fe_bytes_per_packet_bi",
+  "fe_bytes_per_packet_d2s",
+  "fe_bytes_per_packet_s2d",
+  "fe_fin_rate_bi",
+  "fe_packet_ratio_s2d_over_d2s",
+  "fe_packets_per_ms_bi",
+  "fe_psh_rate_bi",
+  "fe_rst_rate_bi",
+  "fe_syn_rate_bi",
+  "fe_udps_session_report_req_per_packet"
+]

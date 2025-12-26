@@ -1,0 +1,21 @@
+{
+  "client_1": [
+    "benign",
+    "bruteForce"
+  ],
+  "client_2": [
+    "benign",
+    "ddos_slowloris"
+  ],
+  "client_3": [
+    "benign",
+    "ddos_tcp_ddos",
+    "pfcp_session_deletion"
+  ],
+  "client_4": [
+    "benign",
+    "pfcp_session_deletion",
+    "pfcp_session_establishment",
+    "pfcp_session_modification"
+  ]
+}

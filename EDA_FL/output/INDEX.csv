@@ -1,0 +1,8 @@
+rel,path,label,size_mb
+benign/normal.csv,/home/arjit/thesis/stage2Data/benign/normal.csv,benign,9.935
+bruteForce/bruteForce.csv,/home/arjit/thesis/stage2Data/bruteForce/bruteForce.csv,bruteForce,12.4045
+ddos/Slowloris/slowloris_merged.csv,/home/arjit/thesis/stage2Data/ddos/Slowloris/slowloris_merged.csv,ddos_slowloris,11.4971
+ddos/TCP DDOS/tcp_ddos_merged.csv,/home/arjit/thesis/stage2Data/ddos/TCP DDOS/tcp_ddos_merged.csv,ddos_tcp_ddos,21.0642
+pfcp/session_deletion/session_deletion_merged.csv,/home/arjit/thesis/stage2Data/pfcp/session_deletion/session_deletion_merged.csv,pfcp_session_deletion,6.3235
+pfcp/session_establishment/session_establishment_merged.csv,/home/arjit/thesis/stage2Data/pfcp/session_establishment/session_establishment_merged.csv,pfcp_session_establishment,3.1246
+pfcp/session_modification/session_modification.csv,/home/arjit/thesis/stage2Data/pfcp/session_modification/session_modification.csv,pfcp_session_modification,11.4701
